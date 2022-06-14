@@ -14,7 +14,7 @@
 <span class="utopia-bg">
 <?php include 'include/header.php'; ?>
 </span>
-            <div class="utopia-txt">
+            <div class="utopia-txt btm-line">
                <div class="row">
                   <div class="col-md-12 col-lg-12 col-xl-3 no-pad">
                      <div class="story-txt">
@@ -24,10 +24,12 @@
                   </div>
                   <div class="col-md-12 col-lg-12 col-xl-9 no-pad">
                      <div class="story-line">
+                      <div class="scroll-mob">
                         <p>A deadly virus was released into Utopia by an unknown entity, a virus that was powerful enough to eradicate humanity.
                         However, there are small traces of humanity left within Utopia and these remaining humans have taken upon themselves to be responsible for seeking retribution. Artificial Intelligence has taken over Utopia. This was the birth of a new cyber species, The Zeils, that was created by an all-powerful and merciless AI.
                         His name was Karth, The Cyber Ruler.
                         </p>
+                      </div>
                      </div>
                   </div>
                </div>

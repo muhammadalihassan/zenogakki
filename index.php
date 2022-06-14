@@ -26,11 +26,11 @@
    <?php include 'include/header.php'; ?>
 </span>
 
-            <div class="index-banner-txt">
+            <div class="index-banner-txt btm-line">
               <div class="container">
                 <div ></div>
-                <h1>THE FIRST DECENTRALIZED ANIME FRANCHISE</h1>
-                <a href="utopia.php">ENTER UTOPIA <i class="fa-solid fa-angles-right"></i></a>
+                <h1 class="drop-in">THE FIRST DECENTRALIZED ANIME FRANCHISE</h1>
+                <a href="utopia.php" class="drop-in-2">ENTER UTOPIA <i class="fa-solid fa-angles-right"></i></a>
               </div>
             </div>
           </div>

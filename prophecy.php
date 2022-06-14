@@ -17,7 +17,7 @@
 <?php include 'include/header.php'; ?>
 </span>
 
-            <div class="utopia-txt">
+            <div class="utopia-txt btm-line">
                <div class="row">
                   <div class="col-md-12 col-lg-12 col-xl-4 no-pad">
                      <div class="story-txt">

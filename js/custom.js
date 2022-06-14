@@ -1,5 +1,5 @@
 $("#hashplay").click(function(){
-	var a = $(this).find(".fa-solid");
+    var a = $(this).find(".fa-solid");
   if($(this).hasClass("active")){
     $(this).removeClass("active");
     document.getElementById("webbgaudios").pause();
@@ -16,41 +16,42 @@ $("#hashplay").click(function(){
 })
 
 $(".enter-utopia").click(function(){
-	$(".intro-video").fadeOut(2000);
-	var box = document.getElementById('box');
+    $(".intro-video").fadeOut(2000);
+    var box = document.getElementById('box');
 
 box.classList.remove('drawing-borders');
   setTimeout(function() {$box.classList.add('drawing-borders');}, 100)
 })
 
 /*$(".bottom-header .navbar li").click(function(){
-	// var b = $(this).find(".hovertext-p1").text();
-	// $(".bottom-header .navbar:after").css("content", b);
-	var url = window.location.href;
-	// alert();
-	if(url.indexOf('utopia.php') > -1){
-		$(".bottom-header .navbar p").html("UTOPIA")	
-	}
-	// var c = $(".bottom-header .navbar .active").find(".hovertext-p1").text();
-	
+    // var b = $(this).find(".hovertext-p1").text();
+    // $(".bottom-header .navbar:after").css("content", b);
+    var url = window.location.href;
+    // alert();
+    if(url.indexOf('utopia.php') > -1){
+        $(".bottom-header .navbar p").html("UTOPIA")    
+    }
+    // var c = $(".bottom-header .navbar .active").find(".hovertext-p1").text();
+    
 })*/
 $(document).ready(function(){
-	var url = window.location.href;
-	// alert();
-	if(url.indexOf('utopia.php') > -1){
-		$(".bottom-header .navbar p").html("UTOPIA")	
-	}else if(url.indexOf('prophecy.php') > -1){
-		$(".bottom-header .navbar p").html("PROPHECY")	
+    var url = window.location.href;
+    // alert();
+    if(url.indexOf('utopia.php') > -1){
+        $(".bottom-header .navbar p").html("UTOPIA")
+        $("body").addClass("uto");  
+    }else if(url.indexOf('prophecy.php') > -1){
+        $(".bottom-header .navbar p").html("PROPHECY")  
+        $("body").addClass("prop");
+    }
 
-	}
 
+    // Index page changes
+    $(".enter-utopia").hide()
 
-	// Index page changes
-	$(".enter-utopia").hide()
-
-	setTimeout(function() {         
-	    $(".enter-utopia").fadeIn(200);
-	}, 7000);
+    setTimeout(function() {         
+        $(".enter-utopia").fadeIn(200);
+    }, 7000);
 })
 
 //cookies code
@@ -105,19 +106,19 @@ function checkCookie() {
 
 // $(document).ready(function(){
 
-// 	var check_status = getCookie("video_change")
-// 	if(check_status == "read"){
-// 		$(".intro-video").hide()
-// 	}else{
-// 		setCookie("video_change" , "read" , 1)
-// 		$(".intro-video").show()
-// 	}
+//  var check_status = getCookie("video_change")
+//  if(check_status == "read"){
+//      $(".intro-video").hide()
+//  }else{
+//      setCookie("video_change" , "read" , 1)
+//      $(".intro-video").show()
+//  }
 // })
 
 // cookies code end here
 
 $(document).ready(function(){
-	$(".logo").addClass("full");
+    $(".logo").addClass("full");
 })
 
 var $box = document.getElementById('box');
