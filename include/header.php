@@ -61,15 +61,15 @@
                            </li>
                            <li class='<?=(isset($navitem) && $navitem=="recordings")?"active":"" ?> hovertext-container'>
                               <a class="nav-link disabled hovertext-p1" href="#">RECORDINGS</a>
-                              <a class="nav-link hovertext-p2" href="#">COMING SOON</a>
+                              <a class="nav-link hovertext-p2 coming-txt" href="#">COMING SOON</a>
                            </li>
                            <li class='<?=(isset($navitem) && $navitem=="destructions")?"active":"" ?> hovertext-container'>
                               <a class="nav-link disabled hovertext-p1" href="#">DESTRUCTION</a>
-                              <a class="nav-link hovertext-p2" href="#">COMING SOON</a>
+                              <a class="nav-link hovertext-p2 coming-txt" href="#">COMING SOON</a>
                            </li>
                            <li class='<?=(isset($navitem) && $navitem=="synergy")?"active":"" ?> hovertext-container'>
                               <a class="nav-link disabled hovertext-p1" href="#">SYNERGY</a>
-                              <a class="nav-link hovertext-p2" href="#">COMING SOON</a>
+                              <a class="nav-link hovertext-p2 coming-txt" href="#">COMING SOON</a>
                            </li>
                         </ul>
                      </div>

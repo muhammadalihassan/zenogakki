@@ -19,4 +19,4 @@
     />
       <title>Zenogakki</title>
    </head>
-   <body>
+   <body onload="typeWriter()">

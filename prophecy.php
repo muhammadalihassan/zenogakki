@@ -29,10 +29,8 @@
                   <div class="col-md-12 col-lg-12 col-xl-8 no-pad">
                      <div class="story-line prophecy-line">
                       <div class="scroll-mob">
-                         <p>Zenogakki is a revolution within an industry.<br> Animators, and creatives worldwide are not credited enough when anime series are made. They get paid minimal salaries when producers make millions.
-                        </p>
-                        <p>Zenogakki’s long-term vision is to create a structure where the community and creatives benefit from the success of the franchise for as long as it lives; this plans to include (but is not limited to) watch to earn mechanism for the community.</p>
-                        <p>Zenogakki is to function as a core in the decentralized anime/media space, by creating and innovating our own platform, granting IP rights to NFT Holders, we will expand and scale our franchise to ultimately become an anchor for similar projects to move forward while taking the right steps.</p>
+                        <!-- <button onclick="typeWriter()">Click me</button> -->
+                        <p id="demo"></p>
                       </div>
                        
                      </div>
