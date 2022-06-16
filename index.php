@@ -15,22 +15,23 @@
          <source src="https://d1z8nn7yvmka87.cloudfront.net/Mobile.mp4" type="video/mp4">
       </video>
 
-<!-- <div class="intro-video">
-  <video  muted="" playsinline="" autoplay="" webkit-playsinline="" id="intro-video">
-         <source src="https://d1z8nn7yvmka87.cloudfront.net/logo-z.mp4" type="video/mp4">
-      </video>
-      <a href="javascript:void(0)" class="enter-utopia"><img src="images/button.jpg" alt=""></a>
-</div> -->
+<div class="intro-video counter">
+       <img src="images/ver-logo.png" alt="logo">
+       <p>0%</p>
+</div>
+
+
 <!-- background stuff -->
 <span class="index-body">
    <?php include 'include/header.php'; ?>
+   <?php index("home") ?>
 </span>
 
-            <div class="index-banner-txt btm-line">
-              <div class="container">
-                <div ></div>
-                <h1 class="drop-in">THE FIRST DECENTRALIZED ANIME FRANCHISE</h1>
-                <a href="utopia.php" class="drop-in-2">ENTER UTOPIA <i class="fa-solid fa-angles-right"></i></a>
+            <div class="index-banner-txt">
+              <div class="container" id="data-append">
+                <!-- <div ></div>
+                <div class="main-heading"><h1 class="drop-in">THE REBIRTH OF MANKIND</h1></div>
+                <a href="utopia.php" class="drop-in-2">ENTER UTOPIA <i class="fa-solid fa-angles-right"></i></a> -->
               </div>
             </div>
           </div>

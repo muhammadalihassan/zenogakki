@@ -13,6 +13,7 @@
 
 <span class="utopia-bg">
 <?php include 'include/header.php'; ?>
+<?php others("utopia") ?>
 </span>
             <div class="utopia-txt btm-line">
                <div class="row">

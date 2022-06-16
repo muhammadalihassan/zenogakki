@@ -7,14 +7,17 @@
        <audio id="webbgaudios" loop >
        <source src="https://zenogakki.io/images/phosphery-music.mp3"  type="audio/mp3">
      </audio>
-     <img class="deks-view" id="third-video" src="images/prophecy.png" alt="zenogakki">
-
+<!--      <img class="deks-view" id="third-video" src="images/prophecy.png" alt="zenogakki">
+ --> <video class="deks-view" muted="" playsinline="" loop="" autoplay="" webkit-playsinline="" id="third-video">
+         <source src="images/Karth.mp4" type="video/mp4">
+      </video>
 
 
 <!-- background stuff -->
 
 <span class="pro-bg">
 <?php include 'include/header.php'; ?>
+<?php others("prophecy") ?>
 </span>
 
             <div class="utopia-txt btm-line">

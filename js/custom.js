@@ -124,25 +124,54 @@ $(document).ready(function(){
 var $box = document.getElementById('box');
 
 
-
-
-
-var i = 0;
+// var i = 0;
+// alert(window.performance.navigation.TYPE_RELOAD)
 var txt = 'Zenogakki is a revolution within an industry.$ Animators, and creatives worldwide are not credited enough when anime series are made. They get paid minimal salaries when producers make millions.$$Zenogakki’s long-term vision is to create a structure where the community and creatives benefit from the success of the franchise for as long as it lives; this plans to include (but is not limited to) watch to earn mechanism for the community.$$Zenogakki is to function as a core in the decentralized anime/media space, by creating and innovating our own platform, granting IP rights to NFT Holders, we will expand and scale our franchise to ultimately become an anchor for similar projects to move forward while taking the right steps.';
 var speed = 50;
 
+
+
 function typeWriter() {
-  if (i < txt.length) {
-    if(txt.charAt(i) == '$' && txt.charAt(i+1) == '$'){
-         document.getElementById('demo').innerHTML += '<br /><br />';
-        i+=2
+    var i = 0;
+    var id = setInterval(function(){
+        if(txt.charAt(i) == '$' && txt.charAt(i+1) == '$'){
+             document.getElementById('demo').innerHTML += '<br /><br />';
+            i+=2
+        }
+        else if (txt.charAt(i) == '$') {
+            document.getElementById('demo').innerHTML += '<br />';
+            i++
+        }
+        document.getElementById("demo").innerHTML += txt.charAt(i)
+        i++;
+    }, 50);
+    if (text.length == i) {
+        clearInterval(id);
     }
-    else if (txt.charAt(i) == '$') {
-        document.getElementById('demo').innerHTML += '<br />';
-        i++
-    }
-    document.getElementById("demo").innerHTML += txt.charAt(i);
-    i++;
-    setTimeout(typeWriter, speed);
-  }
 }
+
+
+
+var counter = 0;
+var c = 0;
+var i = setInterval(function () {
+  $(".counter p").html(c + "%");
+  $(".counter hr").css("width", c + "%");
+
+  counter++;
+  c++;
+// if(counter == 100){
+
+// }
+//  else 
+if (counter == 101) {
+    clearInterval(i);
+    $(".intro-video").fadeOut(300);
+    var bodymaker = '<div class="main-heading"><h1 class="drop-in">THE REBIRTH OF MANKIND</h1></div><a href="utopia.php" class="drop-in-2">ENTER UTOPIA <i class="fa-solid fa-angles-right"></i></a>'
+    $("#data-append").html(bodymaker);
+    $(".ua1").addClass("underlined-animatedl");
+    $(".ua").addClass("underlined-animated");
+    $(".side-borders").addClass("drawing-borders");
+    $(".index-banner-txt").addClass("btm-line");
+  }
+}, 100);
