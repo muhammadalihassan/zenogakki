@@ -1025,6 +1025,12 @@ background: linear-gradient(-45deg, #000000, #302632, #414f6c, #2a819f, #1cb5b5)
 .scroll-mob::-webkit-scrollbar-thumb:hover {
   background: #555; 
 }
+.deks-view {
+    position: fixed;
+}
+.main-txt {
+    height: auto;
+}
 .story-txt {
     border-right: none;
     border-top: 1px solid #c1bdbd;
